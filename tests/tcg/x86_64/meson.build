@@ -52,6 +52,7 @@ tests += {
   },
   '../i386/test-i386-adcox.c': {'cflags': ['-O2']},
   '../i386/test-i386-bmi2.c': {'cflags': ['-O2', '-fwrapv']},
+  '../i386/test-i386-bt-flags.c': {'cflags': ['-O2']},
 }
 
 tests += {
